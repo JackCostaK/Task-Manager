@@ -69,7 +69,7 @@ def edit(id:int):
         return render_template("edit.html", task=task)
 
 
-if __name__ in '__main__':
+if __name__ == '__main__':
     with app.app_context():
         db.create_all()
 

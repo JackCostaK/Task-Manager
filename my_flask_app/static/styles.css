@@ -1,3 +1,61 @@
 body {
-  background-color: rgb(171, 211, 191);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(235, 224, 204);
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20 px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10 px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+.content h1 {
+  color: rgb(0, 0, 0);
+}
+.content table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+.content table th,
+.content table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.content table th th,
+.content table td th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.content a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: rgb(75, 119, 106);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a:hover {
+  background-color: rgb(21, 53, 43);
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.content #btn_Add, .content #btn_Update {
+  background-color: rgb(8, 139, 48);
+  color: #fff;
+  cursor: pointer;
+}
+.content #btn_Add:hover, .content #btn_Update:hover {
+  background-color: rgb(8, 71, 24);
 }/*# sourceMappingURL=styles.css.map */
