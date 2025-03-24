@@ -14,4 +14,4 @@ Users can edit existing tasks as needed
 ![image](https://github.com/user-attachments/assets/fa7099d2-bd18-47e6-90fb-da55d1906a83)
 
 ## Delete Tasks
-Users can quickly and easily click the 'Delete' Button to remove tasks from the feed when they are completed
+Users can quickly and easily click the `Delete` Button to remove tasks from the feed when they are completed
